@@ -16,10 +16,10 @@
 :: 6.0 About Us CSS
 :: 7.0 Career Timeline CSS
 :: 8.0 Upcoming Shows Area CSS
-:: 9.0 Featulightgrey Shows Area CSS
+:: 9.0 Featuwhite Shows Area CSS
 :: 10.0 Search Your Shows Area CSS
 :: 11.0 Music Player Area CSS
-:: 12.0 Featulightgrey Album Area CSS
+:: 12.0 Featuwhite Album Area CSS
 :: 13.0 Music Artists Area CSS
 :: 14.0 Services Area CSS
 :: 15.0 Footer Area CSS
@@ -284,15 +284,15 @@ img {
   z-index: 1;
   width: 100%;
   height: 5px;
-  background: lightgrey;
-  background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-  background: repeating-linear-gradient(to right, lightgrey, black); }
+  background: white;
+  background: -webkit-repeating-linear-gradient(to right, white, black);
+  background: repeating-linear-gradient(to right, white, black); }
 
 /* :: 3.7.0 ScrollUp */
 #scrollUp {
-  background: lightgrey;
-  background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-  background: repeating-linear-gradient(to right, lightgrey, black);
+  background: white;
+  background: -webkit-repeating-linear-gradient(to right, white, black);
+  background: repeating-linear-gradient(to right, white, black);
   border-radius: 0;
   bottom: 50px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -308,9 +308,9 @@ img {
 
 /* :: 3.8.0 Musica Button */
 .musica-btn {
-  background: lightgrey;
-  background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-  background: repeating-linear-gradient(to right, lightgrey, black);
+  background: white;
+  background: -webkit-repeating-linear-gradient(to right, white, black);
+  background: repeating-linear-gradient(to right, white, black);
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   position: relative;
@@ -343,21 +343,21 @@ img {
     padding: 0 15px;
     width: 133px;
     height: 42px;
-    border-left: 3px solid lightgrey;
+    border-left: 3px solid white;
     border-right: 3px solid black;
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
     background-size: 100% 3px;
-    background-image: -webkit-repeating-linear-gradient(left, lightgrey 0%, black 100%), -webkit-repeating-linear-gradient(left, lightgrey 0%, black 100%);
-    background-image: repeating-linear-gradient(to right, lightgrey 0%, black 100%), repeating-linear-gradient(to right, lightgrey 0%, black 100%); }
+    background-image: -webkit-repeating-linear-gradient(left, white 0%, black 100%), -webkit-repeating-linear-gradient(left, white 0%, black 100%);
+    background-image: repeating-linear-gradient(to right, white 0%, black 100%), repeating-linear-gradient(to right, white 0%, black 100%); }
     .musica-btn.btn-3::after {
       -webkit-transition-duration: 750ms;
       transition-duration: 750ms;
       color: #ffffff;
-      background: lightgrey;
-      background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-      background: -webkit-repeating-linear-gradient(left, lightgrey, black);
-      background: repeating-linear-gradient(to right, lightgrey, black);
+      background: white;
+      background: -webkit-repeating-linear-gradient(to right, white, black);
+      background: -webkit-repeating-linear-gradient(left, white, black);
+      background: repeating-linear-gradient(to right, white, black);
       content: '';
       position: absolute;
       width: 100%;
@@ -881,15 +881,15 @@ img {
       .single-upcoming-shows .buy-tickets a:hover, .single-upcoming-shows .buy-tickets a:focus {
         box-shadow: 0 0 60px rgba(255, 255, 255, 0.5); }
 
-/* :: 9.0 Featulightgrey Shows Area CSS */
-.single-featulightgrey-shows {
+/* :: 9.0 Featuwhite Shows Area CSS */
+.single-featuwhite-shows {
   position: relative;
   z-index: 1;
   overflow: hidden; }
-  .single-featulightgrey-shows img {
+  .single-featuwhite-shows img {
     -webkit-transition-duration: 800ms;
     transition-duration: 800ms; }
-  .single-featulightgrey-shows .featulightgrey-shows-content {
+  .single-featuwhite-shows .featuwhite-shows-content {
     -webkit-transition-duration: 800ms;
     transition-duration: 800ms;
     position: absolute;
@@ -898,20 +898,20 @@ img {
     bottom: 30px;
     left: 30px;
     z-index: 99; }
-    .single-featulightgrey-shows .featulightgrey-shows-content .shows-text {
+    .single-featuwhite-shows .featuwhite-shows-content .shows-text {
       padding: 30px 35px 15px 35px; }
-      .single-featulightgrey-shows .featulightgrey-shows-content .shows-text h4 {
+      .single-featuwhite-shows .featuwhite-shows-content .shows-text h4 {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
         font-weight: 900;
         margin-bottom: 0;
         line-height: 1; }
-      .single-featulightgrey-shows .featulightgrey-shows-content .shows-text p {
+      .single-featuwhite-shows .featuwhite-shows-content .shows-text p {
         color: #72728c;
         font-style: italic;
         font-size: 14px;
         margin-bottom: 4px; }
-      .single-featulightgrey-shows .featulightgrey-shows-content .shows-text .buy-tickets-btn {
+      .single-featuwhite-shows .featuwhite-shows-content .shows-text .buy-tickets-btn {
         display: block;
         color: #181818;
         font-size: 14px;
@@ -920,21 +920,21 @@ img {
         font-style: italic;
         font-weight: 700;
         text-decoration-color: #6a6a6a; }
-        .single-featulightgrey-shows .featulightgrey-shows-content .shows-text .buy-tickets-btn:hover, .single-featulightgrey-shows .featulightgrey-shows-content .shows-text .buy-tickets-btn:focus {
+        .single-featuwhite-shows .featuwhite-shows-content .shows-text .buy-tickets-btn:hover, .single-featuwhite-shows .featuwhite-shows-content .shows-text .buy-tickets-btn:focus {
           color: #bd177a; }
-  .single-featulightgrey-shows:hover img {
+  .single-featuwhite-shows:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
-  .single-featulightgrey-shows:hover .featulightgrey-shows-content {
+  .single-featuwhite-shows:hover .featuwhite-shows-content {
     bottom: 80px; }
-    .single-featulightgrey-shows:hover .featulightgrey-shows-content .shows-text h4 {
+    .single-featuwhite-shows:hover .featuwhite-shows-content .shows-text h4 {
       color: #bd177a; }
 
-.featulightgrey-shows-slides {
+.featuwhite-shows-slides {
   position: relative;
   z-index: 1; }
-  .featulightgrey-shows-slides .owl-prev,
-  .featulightgrey-shows-slides .owl-next {
+  .featuwhite-shows-slides .owl-prev,
+  .featuwhite-shows-slides .owl-next {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     background: #f3f3f3;
@@ -949,20 +949,20 @@ img {
     left: -20px;
     margin-top: -20px; }
     @media only screen and (max-width: 767px) {
-      .featulightgrey-shows-slides .owl-prev,
-      .featulightgrey-shows-slides .owl-next {
+      .featuwhite-shows-slides .owl-prev,
+      .featuwhite-shows-slides .owl-next {
         left: 0; } }
-    .featulightgrey-shows-slides .owl-prev:hover,
-    .featulightgrey-shows-slides .owl-next:hover {
-      background: lightgrey;
-      background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-      background: repeating-linear-gradient(to right, lightgrey, black);
+    .featuwhite-shows-slides .owl-prev:hover,
+    .featuwhite-shows-slides .owl-next:hover {
+      background: white;
+      background: -webkit-repeating-linear-gradient(to right, white, black);
+      background: repeating-linear-gradient(to right, white, black);
       color: #ffffff; }
-  .featulightgrey-shows-slides .owl-next {
+  .featuwhite-shows-slides .owl-next {
     left: auto;
     right: -20px; }
     @media only screen and (max-width: 767px) {
-      .featulightgrey-shows-slides .owl-next {
+      .featuwhite-shows-slides .owl-next {
         right: 0; } }
 
 /* :: 10.0 Search Your Shows Area CSS */
@@ -976,9 +976,9 @@ img {
   z-index: 1;
   margin: 200px 7% 250px 7%;
   padding: 60px 30px;
-  background: lightgrey;
-  background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-  background: repeating-linear-gradient(to right, lightgrey, black);
+  background: white;
+  background: -webkit-repeating-linear-gradient(to right, white, black);
+  background: repeating-linear-gradient(to right, white, black);
   opacity: 0.8; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .search-your-shows-content {
@@ -1090,22 +1090,22 @@ img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2); }
 
-/* :: 12.0 Featulightgrey Album Area CSS */
-.featulightgrey-album-area {
+/* :: 12.0 Featuwhite Album Area CSS */
+.featuwhite-album-area {
   position: relative;
   z-index: 1;
   background-color: #0c0527; }
 
-.featulightgrey-album-content {
+.featuwhite-album-content {
   position: relative;
   z-index: 2;
   background-color: #27203f;
   width: 100%;
   height: 570px; }
   @media only screen and (max-width: 767px) {
-    .featulightgrey-album-content {
+    .featuwhite-album-content {
       height: 1050px; } }
-  .featulightgrey-album-content .album-all-songs {
+  .featuwhite-album-content .album-all-songs {
     position: relative;
     z-index: 2;
     height: calc(100% - 200px);
@@ -1113,9 +1113,9 @@ img {
     overflow-x: hidden;
     overflow-y: scroll; }
     @media only screen and (max-width: 767px) {
-      .featulightgrey-album-content .album-all-songs {
+      .featuwhite-album-content .album-all-songs {
         height: calc(100% - 385px); } }
-    .featulightgrey-album-content .album-all-songs .audioplayer {
+    .featuwhite-album-content .album-all-songs .audioplayer {
       margin: 0;
       padding: 0;
       width: auto;
@@ -1126,45 +1126,45 @@ img {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; }
-      .featulightgrey-album-content .album-all-songs .audioplayer audio {
+      .featuwhite-album-content .album-all-songs .audioplayer audio {
         display: none; }
-    .featulightgrey-album-content .album-all-songs .audioplayer-volume,
-    .featulightgrey-album-content .album-all-songs .audioplayer-bar,
-    .featulightgrey-album-content .album-all-songs .audioplayer-time-current {
+    .featuwhite-album-content .album-all-songs .audioplayer-volume,
+    .featuwhite-album-content .album-all-songs .audioplayer-bar,
+    .featuwhite-album-content .album-all-songs .audioplayer-time-current {
       display: none; }
-    .featulightgrey-album-content .album-all-songs .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
+    .featuwhite-album-content .album-all-songs .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
       border-top: 7px solid transparent;
       border-right: none;
       border-bottom: 7px solid transparent;
       border-left: 12px solid #bd177a; }
-    .featulightgrey-album-content .album-all-songs .audioplayer-playpause {
+    .featuwhite-album-content .album-all-songs .audioplayer-playpause {
       width: auto;
       height: auto; }
-    .featulightgrey-album-content .album-all-songs .audioplayer-time-duration {
+    .featuwhite-album-content .album-all-songs .audioplayer-time-duration {
       font-size: 16px;
       color: #ffffff; }
-  .featulightgrey-album-content .album-thumbnail {
+  .featuwhite-album-content .album-thumbnail {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 45%;
     flex: 0 0 45%;
     max-width: 45%;
     width: 45%; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .featulightgrey-album-content .album-thumbnail {
+      .featuwhite-album-content .album-thumbnail {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 30%;
         flex: 0 0 30%;
         max-width: 30%;
         width: 30%; } }
     @media only screen and (max-width: 767px) {
-      .featulightgrey-album-content .album-thumbnail {
+      .featuwhite-album-content .album-thumbnail {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
         height: 200px !important; } }
-  .featulightgrey-album-content .album-songs {
+  .featuwhite-album-content .album-songs {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 55%;
     flex: 0 0 55%;
@@ -1174,14 +1174,14 @@ img {
     z-index: 10;
     padding: 50px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .featulightgrey-album-content .album-songs {
+      .featuwhite-album-content .album-songs {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 70%;
         flex: 0 0 70%;
         max-width: 70%;
         width: 70%; } }
     @media only screen and (max-width: 767px) {
-      .featulightgrey-album-content .album-songs {
+      .featuwhite-album-content .album-songs {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
@@ -1189,43 +1189,43 @@ img {
         width: 100%;
         padding: 30px 15px;
         height: auto !important; } }
-    .featulightgrey-album-content .album-songs .album-info {
+    .featuwhite-album-content .album-songs .album-info {
       width: 100%; }
       @media only screen and (max-width: 767px) {
-        .featulightgrey-album-content .album-songs .album-info .album-title {
+        .featuwhite-album-content .album-songs .album-info .album-title {
           -webkit-box-flex: 0;
           -ms-flex: 0 0 100%;
           flex: 0 0 100%;
           max-width: 100%;
           width: 100%;
           margin-bottom: 30px; } }
-      .featulightgrey-album-content .album-songs .album-info .album-title h6 {
+      .featuwhite-album-content .album-songs .album-info .album-title h6 {
         font-size: 12px;
         font-weight: 900;
         color: #c5afd9;
         text-transform: uppercase; }
-      .featulightgrey-album-content .album-songs .album-info .album-title h4 {
+      .featuwhite-album-content .album-songs .album-info .album-title h4 {
         font-size: 24px;
         margin-bottom: 0;
         font-weight: 900;
         color: #ffffff; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .featulightgrey-album-content .album-songs .album-info .album-title h4 {
+          .featuwhite-album-content .album-songs .album-info .album-title h4 {
             font-size: 18px; } }
       @media only screen and (max-width: 767px) {
-        .featulightgrey-album-content .album-songs .album-info .album-buy-now {
+        .featuwhite-album-content .album-songs .album-info .album-buy-now {
           -webkit-box-flex: 0;
           -ms-flex: 0 0 100%;
           flex: 0 0 100%;
           max-width: 100%;
           width: 100%; } }
-    .featulightgrey-album-content .album-songs .single-music {
+    .featuwhite-album-content .album-songs .single-music {
       position: relative;
       z-index: 1;
       margin-bottom: 30px; }
-      .featulightgrey-album-content .album-songs .single-music:last-child {
+      .featuwhite-album-content .album-songs .single-music:last-child {
         margin-bottom: 0; }
-      .featulightgrey-album-content .album-songs .single-music h6 {
+      .featuwhite-album-content .album-songs .single-music h6 {
         position: absolute;
         font-weight: 500;
         top: 0;
@@ -1235,12 +1235,12 @@ img {
         z-index: auto;
         margin-bottom: 0; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .featulightgrey-album-content .album-songs .single-music h6 {
+          .featuwhite-album-content .album-songs .single-music h6 {
             font-size: 14px;
             top: 3px; } }
-      .featulightgrey-album-content .album-songs .single-music.active h6 {
+      .featuwhite-album-content .album-songs .single-music.active h6 {
         color: white; }
-    .featulightgrey-album-content .album-songs .now-playing {
+    .featuwhite-album-content .album-songs .now-playing {
       position: absolute;
       width: 100%;
       height: 100px;
@@ -1251,31 +1251,31 @@ img {
       background-color: #1d1633;
       padding: 30px 50px; }
       @media only screen and (max-width: 767px) {
-        .featulightgrey-album-content .album-songs .now-playing {
+        .featuwhite-album-content .album-songs .now-playing {
           padding: 30px;
           height: 185px; } }
       @media only screen and (max-width: 767px) {
-        .featulightgrey-album-content .album-songs .now-playing .songs-name {
+        .featuwhite-album-content .album-songs .now-playing .songs-name {
           -webkit-box-flex: 0;
           -ms-flex: 0 0 100%;
           flex: 0 0 100%;
           max-width: 100%;
           width: 100%;
           margin-bottom: 30px; } }
-      .featulightgrey-album-content .album-songs .now-playing .songs-name p {
+      .featuwhite-album-content .album-songs .now-playing .songs-name p {
         font-weight: 900;
         color: rgba(255, 255, 255, 0.5);
         font-size: 12px;
         text-transform: uppercase;
         margin-bottom: 0; }
-      .featulightgrey-album-content .album-songs .now-playing .songs-name h6 {
+      .featuwhite-album-content .album-songs .now-playing .songs-name h6 {
         margin-bottom: 0;
         color: #ffffff;
         font-weight: 600; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .featulightgrey-album-content .album-songs .now-playing .songs-name h6 {
+          .featuwhite-album-content .album-songs .now-playing .songs-name h6 {
             font-size: 14px; } }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer {
         margin: 0;
         padding: 0;
         width: auto;
@@ -1283,37 +1283,37 @@ img {
         border: none;
         border-radius: 0;
         background: transparent; }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-volume,
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-bar {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-volume,
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-bar {
         display: none; }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-playpause {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-playpause {
         background-color: #ffffff; }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-time-duration {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-time-duration {
         margin-right: 0; }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
         border-top: 10px solid transparent;
         border-right: none;
         border-bottom: 10px solid transparent;
         border-left: 18px solid #000; }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-time {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-time {
         width: 60px;
         font-size: 16px;
         color: #ffffff; }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-playpause {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-playpause {
         margin-right: 70px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .featulightgrey-album-content .album-songs .now-playing .audioplayer-playpause {
+          .featuwhite-album-content .album-songs .now-playing .audioplayer-playpause {
             margin-right: 30px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .featulightgrey-album-content .album-songs .now-playing .audioplayer-playpause {
+          .featuwhite-album-content .album-songs .now-playing .audioplayer-playpause {
             margin-right: 15px; } }
         @media only screen and (max-width: 767px) {
-          .featulightgrey-album-content .album-songs .now-playing .audioplayer-playpause {
+          .featuwhite-album-content .album-songs .now-playing .audioplayer-playpause {
             margin-right: 40px; } }
-      .featulightgrey-album-content .album-songs .now-playing .audioplayer-time-current {
+      .featuwhite-album-content .album-songs .now-playing .audioplayer-time-current {
         position: relative;
         z-index: 1; }
-        .featulightgrey-album-content .album-songs .now-playing .audioplayer-time-current::after {
+        .featuwhite-album-content .album-songs .now-playing .audioplayer-time-current::after {
           content: '/';
           position: absolute;
           color: #ffffff;
@@ -1428,9 +1428,9 @@ img {
   position: relative;
   margin-bottom: 30px; }
   .single-service-area .course-title span {
-    background: lightgrey;
-    background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-    background: repeating-linear-gradient(to right, lightgrey, black);
+    background: white;
+    background: -webkit-repeating-linear-gradient(to right, white, black);
+    background: repeating-linear-gradient(to right, white, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 72px;
@@ -1508,9 +1508,9 @@ img {
     .footer-area .footer-widget-area .subscribe-form button {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
-      background: lightgrey;
-      background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-      background: repeating-linear-gradient(to right, lightgrey, black);
+      background: white;
+      background: -webkit-repeating-linear-gradient(to right, white, black);
+      background: repeating-linear-gradient(to right, white, black);
       position: absolute;
       z-index: 10;
       top: 0;
@@ -1567,9 +1567,9 @@ img {
     left: 50%;
     margin-left: -196px;
     z-index: 100;
-    background: lightgrey;
-    background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-    background: repeating-linear-gradient(to right, lightgrey, black);
+    background: white;
+    background: -webkit-repeating-linear-gradient(to right, white, black);
+    background: repeating-linear-gradient(to right, white, black);
     text-align: center; }
     @media only screen and (max-width: 767px) {
       .breadcumb-area .bradcumbContent {
@@ -1835,9 +1835,9 @@ img {
 .single-accordion h6 {
   margin-bottom: 0; }
   .single-accordion h6 a {
-    background: lightgrey;
-    background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-    background: repeating-linear-gradient(to right, lightgrey, black);
+    background: white;
+    background: -webkit-repeating-linear-gradient(to right, white, black);
+    background: repeating-linear-gradient(to right, white, black);
     border-radius: 0;
     color: #ffffff;
     display: block;
@@ -1867,9 +1867,9 @@ img {
       background: #f3f3f3;
       color: #6a6a6a; }
       .single-accordion h6 a.collapsed span {
-        background: lightgrey;
-        background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-        background: repeating-linear-gradient(to right, lightgrey, black); }
+        background: white;
+        background: -webkit-repeating-linear-gradient(to right, white, black);
+        background: repeating-linear-gradient(to right, white, black); }
         .single-accordion h6 a.collapsed span.accor-close {
           opacity: 0; }
         .single-accordion h6 a.collapsed span.accor-open {
@@ -1908,9 +1908,9 @@ img {
         .musica-tabs-content .nav-tabs .nav-link {
           padding: 0 15px; } }
       .musica-tabs-content .nav-tabs .nav-link.active {
-        background: lightgrey;
-        background: -webkit-repeating-linear-gradient(to right, lightgrey, black);
-        background: repeating-linear-gradient(to right, lightgrey, black);
+        background: white;
+        background: -webkit-repeating-linear-gradient(to right, white, black);
+        background: repeating-linear-gradient(to right, white, black);
         color: #ffffff; }
   .musica-tabs-content .musica-tab-text p span {
     font-size: 36px;
