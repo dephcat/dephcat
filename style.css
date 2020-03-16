@@ -1,7 +1,7 @@
 /* [Master Stylesheet - v1.0] */
 /* =========== Index of CSS ===========
 :: 1.0 Import Fonts
-:: 2.0 Import All CSS 
+:: 2.0 Import All CSS
 :: 3.0 Base CSS
     :: 3.1.0 Spacing
     :: 3.2.0 Height
@@ -459,7 +459,7 @@ img {
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: #0c0527;
+    background-color: black;
     box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2); }
     @media only screen and (max-width: 767px) {
       .header-area .is-sticky .musica-main-menu {
@@ -1457,6 +1457,7 @@ img {
 
 /* :: 15.0 Footer Area CSS */
 .footer-area {
+  background-color: black;
   position: relative;
   z-index: 1;
   padding-left: 5%;
