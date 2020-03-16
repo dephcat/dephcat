@@ -422,8 +422,8 @@ img {
         background-position: 0 0, 0 100%;
         background-repeat: no-repeat;
         background-size: 100% 3px;
-        background-image: -webkit-linear-gradient(left, red 0%, yellow 100%), -webkit-linear-gradient(left, red 0%, yellow 100%);
-        background-image: linear-gradient(to right, red 0%, yellow 100%), linear-gradient(to right, red 0%, yellow 100%);
+        background-image: -webkit-linear-gradient(left, black 0%, grey 100%), -webkit-linear-gradient(left, grey 0%, black 100%);
+        background-image: linear-gradient(to right, black 0%, grey 100%), linear-gradient(to right, grey 0%, black 100%);
         &::after {
             @include trans-duration(750ms);
             color: $white-color;
