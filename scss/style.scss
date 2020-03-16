@@ -319,8 +319,9 @@ img {
     z-index: 2;
     background-position: center center;
     background-size: cover;
+    background-color: black;
     &::after {
-        background-color: rgba(21, 4, 48, 0.89);
+        background-color: black;
         position: absolute;
         z-index: -1;
         top: 0;
@@ -336,8 +337,9 @@ img {
     z-index: 2;
     background-position: center center;
     background-size: cover;
+    background-color: black;
     &::after {
-        background-color: rgba(21, 4, 48, 0.5);
+        background-color: black;
         position: absolute;
         z-index: -1;
         top: 0;
