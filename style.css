@@ -1552,13 +1552,13 @@ img {
   height: 550px;}
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .breadcumb-area {
-      height: 270px; } }
+      height: 350px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .breadcumb-area {
-      height: 250px; } }
+      height: 350px; } }
   @media only screen and (max-width: 767px) {
     .breadcumb-area {
-      height: 220px; } }
+      height: 250px; } }
   .breadcumb-area .bradcumbContent {
     position: absolute;
     width: 392px;
