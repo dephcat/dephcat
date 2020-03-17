@@ -309,11 +309,12 @@ img {
   text-align: center;
   width: 40px;
   -webkit-transition-duration: 500ms;
-  transition-duration: 500ms; }
+  transition-duration: 500ms;
+}
 
-  #scrollUp:hover{
-      box-shadow: 0 0 60px rgba(255, 255, 255, 0.5); }
-  }
+#scrollUp:hover{
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.5);
+}
 
 
 /* :: 3.8.0 Musica Button */

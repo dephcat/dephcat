@@ -370,6 +370,8 @@ img {
 /* :: 3.7.0 ScrollUp */
 
 #scrollUp {
+  background-color: black;
+  border: 2px solid #181818;
     @include bg-gradients;
     border-radius: 0;
     bottom: 50px;
