@@ -285,14 +285,14 @@ img {
   width: 100%;
   height: 5px;
   background: grey;
-  background: -webkit-repeating-linear-gradient(to right, grey, black);
-  background: repeating-linear-gradient(to right, grey, black); }
+  background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+  background: repeating-linear-gradient(to right, #ff9900, #6600cc); }
 
 /* :: 3.7.0 ScrollUp */
 #scrollUp {
   background: grey;
-  background: -webkit-repeating-linear-gradient(to right, grey, black);
-  background: repeating-linear-gradient(to right, grey, black);
+  background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+  background: repeating-linear-gradient(to right, #ff9900, #6600cc);
   border-radius: 0;
   bottom: 50px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -309,8 +309,8 @@ img {
 /* :: 3.8.0 Musica Button */
 .musica-btn {
   background: grey;
-  background: -webkit-repeating-linear-gradient(to right, grey, black);
-  background: repeating-linear-gradient(to right, grey, black);
+  background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+  background: repeating-linear-gradient(to right, #ff9900, #6600cc);
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   position: relative;
@@ -355,9 +355,9 @@ img {
       transition-duration: 750ms;
       color: #ffffff;
       background: grey;
-      background: -webkit-repeating-linear-gradient(to right, grey, black);
-      background: -webkit-repeating-linear-gradient(left, grey, black);
-      background: repeating-linear-gradient(to right, grey, black);
+      background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+      background: -webkit-repeating-linear-gradient(left, #ff9900, #6600cc);
+      background: repeating-linear-gradient(to right, #ff9900, #6600cc);
       content: '';
       position: absolute;
       width: 100%;
@@ -955,8 +955,8 @@ img {
     .featugrey-shows-slides .owl-prev:hover,
     .featugrey-shows-slides .owl-next:hover {
       background: grey;
-      background: -webkit-repeating-linear-gradient(to right, grey, black);
-      background: repeating-linear-gradient(to right, grey, black);
+      background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+      background: repeating-linear-gradient(to right, #ff9900, #6600cc);
       color: #ffffff; }
   .featugrey-shows-slides .owl-next {
     left: auto;
@@ -977,8 +977,8 @@ img {
   margin: 200px 7% 250px 7%;
   padding: 60px 30px;
   background: grey;
-  background: -webkit-repeating-linear-gradient(to right, grey, black);
-  background: repeating-linear-gradient(to right, grey, black);
+  background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+  background: repeating-linear-gradient(to right, #ff9900, #6600cc);
   opacity: 0.8; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .search-your-shows-content {
@@ -1429,8 +1429,8 @@ img {
   margin-bottom: 30px; }
   .single-service-area .course-title span {
     background: grey;
-    background: -webkit-repeating-linear-gradient(to right, grey, black);
-    background: repeating-linear-gradient(to right, grey, black);
+    background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+    background: repeating-linear-gradient(to right, #ff9900, #6600cc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 72px;
@@ -1509,8 +1509,8 @@ img {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
       background: grey;
-      background: -webkit-repeating-linear-gradient(to right, grey, black);
-      background: repeating-linear-gradient(to right, grey, black);
+      background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+      background: repeating-linear-gradient(to right, #ff9900, #6600cc);
       position: absolute;
       z-index: 10;
       top: 0;
@@ -1568,8 +1568,8 @@ img {
     margin-left: -196px;
     z-index: 100;
     background: grey;
-    background: -webkit-repeating-linear-gradient(to right, grey, black);
-    background: repeating-linear-gradient(to right, grey, black);
+    background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+    background: repeating-linear-gradient(to right, #ff9900, #6600cc);
     text-align: center; }
     @media only screen and (max-width: 767px) {
       .breadcumb-area .bradcumbContent {
@@ -1836,8 +1836,8 @@ img {
   margin-bottom: 0; }
   .single-accordion h6 a {
     background: grey;
-    background: -webkit-repeating-linear-gradient(to right, grey, black);
-    background: repeating-linear-gradient(to right, grey, black);
+    background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+    background: repeating-linear-gradient(to right, #ff9900, #6600cc);
     border-radius: 0;
     color: #ffffff;
     display: block;
@@ -1868,8 +1868,8 @@ img {
       color: #6a6a6a; }
       .single-accordion h6 a.collapsed span {
         background: grey;
-        background: -webkit-repeating-linear-gradient(to right, grey, black);
-        background: repeating-linear-gradient(to right, grey, black); }
+        background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+        background: repeating-linear-gradient(to right, #ff9900, #6600cc); }
         .single-accordion h6 a.collapsed span.accor-close {
           opacity: 0; }
         .single-accordion h6 a.collapsed span.accor-open {
@@ -1909,8 +1909,8 @@ img {
           padding: 0 15px; } }
       .musica-tabs-content .nav-tabs .nav-link.active {
         background: grey;
-        background: -webkit-repeating-linear-gradient(to right, grey, black);
-        background: repeating-linear-gradient(to right, grey, black);
+        background: -webkit-repeating-linear-gradient(to right, #ff9900, #6600cc);
+        background: repeating-linear-gradient(to right, #ff9900, #6600cc);
         color: #ffffff; }
   .musica-tabs-content .musica-tab-text p span {
     font-size: 36px;
