@@ -424,15 +424,15 @@ img {
         background-position: 0 0, 0 100%;
         background-repeat: no-repeat;
         background-size: 100% 3px;
-        background-image: -webkit-linear-gradient(left, #ff9900 0%, #6600cc 100%), -webkit-linear-gradient(left, #6600cc 0%, #ff9900 100%);
-        background-image: linear-gradient(to right, #ff9900 0%, #6600cc 100%), linear-gradient(to right, #6600cc 0%, #ff9900 100%);
+        // background-image: -webkit-linear-gradient(left, #ff9900 0%, #6600cc 100%), -webkit-linear-gradient(left, #6600cc 0%, #ff9900 100%);
+        // background-image: linear-gradient(to right, #ff9900 0%, #6600cc 100%), linear-gradient(to right, #6600cc 0%, #ff9900 100%);
         &::after {
             @include trans-duration(750ms);
             color: $white-color;
             background: #cc1573;
-            background: -webkit-linear-gradient(to right, blue 0%, purple 50%, red 100%);
-            background: -webkit-linear-gradient(left, blue 0%, purple 50%, red 100%);
-            background: linear-gradient(to right, #6600cc, #ff9900);
+            // background: -webkit-linear-gradient(to right, blue 0%, purple 50%, red 100%);
+            // background: -webkit-linear-gradient(left, blue 0%, purple 50%, red 100%);
+            // background: linear-gradient(to right, #6600cc, #ff9900);
             content: '';
             position: absolute;
             width: 100%;
