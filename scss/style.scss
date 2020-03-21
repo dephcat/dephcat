@@ -3,43 +3,6 @@
 @import 'mixin';
 @import 'responsive';
 
-/* [Master Stylesheet - v1.0] */
-
-/* =========== Index of CSS ===========
-:: 1.0 Import Fonts
-:: 2.0 Import All CSS
-:: 3.0 Base CSS
-    :: 3.1.0 Spacing
-    :: 3.2.0 Height
-    :: 3.3.0 Section Padding
-    :: 3.4.0 Section Heading
-    :: 3.5.0 Preloader
-    :: 3.6.0 Miscellaneous
-    :: 3.7.0 ScrollUp
-    :: 3.8.0 Musica Button
-:: 4.0 Header Area CSS
-:: 5.0 Hero Slides Area
-:: 6.0 About Us CSS
-:: 7.0 Career Timeline CSS
-:: 8.0 Upcoming Shows Area CSS
-:: 9.0 Featured Shows Area CSS
-:: 10.0 Search Your Shows Area CSS
-:: 11.0 Music Player Area CSS
-:: 12.0 Featured Album Area CSS
-:: 13.0 Music Artists Area CSS
-:: 14.0 Services Area CSS
-:: 15.0 Footer Area CSS
-:: 16.0 Breadcumb Area CSS
-:: 17.0 CTA Area CSS
-:: 18.0 Blog Area CSS
-:: 19.0 Skills Area CSS
-:: 20.0 Contact Area CSS
-:: 21.0 Elements Area CSS
-    :: 21.1.0 Single Cool Facts CSS
-    :: 21.2.0 Accordians Area CSS
-    :: 21.3.0 Tabs Area CSS
-*/
-
 /* :: 1.0 Import Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Allura|Raleway:200,300,400,500,600,700,800,900');
@@ -603,51 +566,6 @@ img {
     z-index: 1;
 }
 
-.slide-down {
-    position: absolute;
-    bottom: 15px;
-    z-index: 100;
-    left: 50%;
-    @include transform(translateX(-50%));
-    cursor: pointer;
-    h6 {
-        font-size: 16px;
-        color: $white-color;
-        font-weight: 600;
-        margin-bottom: 15px;
-    }
-    .line {
-        width: 3px;
-        height: 60px;
-        margin: 0 auto;
-        background-color: $white-color;
-        @include animation(slide_down 2s linear infinite);
-    }
-}
-
-@-webkit-keyframes slide_down {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes slide_down {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
 .hero-slides {
     position: relative;
@@ -662,13 +580,14 @@ img {
     padding: 0 30px;
     overflow: hidden;
     @media #{$breakpoint-lg} {
-        height: 700px;
+
+        height: 750px;
     }
     @media #{$breakpoint-md} {
-        height: 650px;
+        height: 660px;
     }
     @media #{$breakpoint-xs} {
-        height: 600px;
+        height: 400px;
     }
     &::after {
         position: absolute;
@@ -689,22 +608,6 @@ img {
         right: 0;
         top: 0;
         bottom: 0;
-    }
-    .big-text {
-        position: absolute;
-        color: rgba(255, 255, 255, 0.1);
-        font-size: 600px;
-        z-index: -10;
-        margin-bottom: 0;
-        @media #{$breakpoint-lg} {
-            font-size: 350px;
-        }
-        @media #{$breakpoint-md} {
-            font-size: 300px;
-        }
-        @media #{$breakpoint-xs} {
-            font-size: 120px;
-        }
     }
     .hero-slides-content {
         display: inline-block;
@@ -764,7 +667,7 @@ img {
         @include transform(scale(1));
     }
     50% {
-        @include transform(scale(1.3));
+        @include transform(scale(1.2));
     }
     100% {
         @include transform(scale(1));
@@ -776,7 +679,7 @@ img {
         @include transform(scale(1));
     }
     50% {
-        @include transform(scale(1.3));
+        @include transform(scale(1.2));
     }
     100% {
         @include transform(scale(1));
@@ -1274,358 +1177,6 @@ img {
         }
         img {
             @include transform(scale(1.2));
-        }
-    }
-}
-
-/* :: 12.0 Featured Album Area CSS */
-
-.featured-album-area {
-    position: relative;
-    z-index: 1;
-    background-color: $bg-default;
-}
-
-.featured-album-content {
-    position: relative;
-    z-index: 2;
-    background-color: #27203f;
-    width: 100%;
-    height: 570px;
-    @media #{$breakpoint-xs} {
-        height: 1050px;
-    }
-    .album-all-songs {
-        position: relative;
-        z-index: 2;
-        height: calc(100% - 200px);
-        width: 100%;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        @media #{$breakpoint-xs} {
-            height: calc(100% - 385px);
-        }
-        .audioplayer {
-            margin: 0;
-            padding: 0;
-            width: auto;
-            height: auto;
-            border: none;
-            border-radius: 0;
-            background: transparent;
-            @include justify-content-between;
-            audio {
-                display: none;
-            }
-        }
-        .audioplayer-volume,
-        .audioplayer-bar,
-        .audioplayer-time-current {
-            display: none;
-        }
-        .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
-            border-top: 7px solid transparent;
-            border-right: none;
-            border-bottom: 7px solid transparent;
-            border-left: 12px solid $hover-color;
-        }
-        .audioplayer-playpause {
-            width: auto;
-            height: auto;
-        }
-        .audioplayer-time-duration {
-            font-size: 16px;
-            color: $white-color;
-        }
-    }
-    .album-thumbnail {
-        @include flex(0 0 45%);
-        max-width: 45%;
-        width: 45%;
-        @media #{$breakpoint-md} {
-            @include flex(0 0 30%);
-            max-width: 30%;
-            width: 30%;
-        }
-        @media #{$breakpoint-xs} {
-            @include flex(0 0 100%);
-            max-width: 100%;
-            width: 100%;
-            height: 200px !important;
-        }
-    }
-    .album-songs {
-        @include flex(0 0 55%);
-        max-width: 55%;
-        width: 55%;
-        position: relative;
-        z-index: 10;
-        padding: 50px;
-        @media #{$breakpoint-md} {
-            @include flex(0 0 70%);
-            max-width: 70%;
-            width: 70%;
-        }
-        @media #{$breakpoint-xs} {
-            @include flex(0 0 100%);
-            max-width: 100%;
-            width: 100%;
-            padding: 30px 15px;
-            height: auto !important;
-        }
-        .album-info {
-            width: 100%;
-            .album-title {
-                @media #{$breakpoint-xs} {
-                    @include flex(0 0 100%);
-                    max-width: 100%;
-                    width: 100%;
-                    margin-bottom: 30px;
-                }
-                h6 {
-                    font-size: 12px;
-                    font-weight: 900;
-                    color: #c5afd9;
-                    text-transform: uppercase;
-                }
-                h4 {
-                    font-size: 24px;
-                    margin-bottom: 0;
-                    font-weight: 900;
-                    color: $white-color;
-                    @media #{$breakpoint-md} {
-                        font-size: 18px;
-                    }
-                }
-            }
-            .album-buy-now {
-                @media #{$breakpoint-xs} {
-                    @include flex(0 0 100%);
-                    max-width: 100%;
-                    width: 100%;
-                }
-            }
-        }
-        .single-music {
-            position: relative;
-            z-index: 1;
-            margin-bottom: 30px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-            h6 {
-                position: absolute;
-                font-weight: 500;
-                top: 0;
-                color: rgba(255, 255, 255, 0.5);
-                right: 60px;
-                left: 40px;
-                z-index: auto;
-                margin-bottom: 0;
-                @media #{$breakpoint-md} {
-                    font-size: 14px;
-                    top: 3px;
-                }
-            }
-            &.active {
-                h6 {
-                    color: rgba(255, 255, 255, 1);
-                }
-            }
-        }
-        .now-playing {
-            position: absolute;
-            width: 100%;
-            height: 100px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 30;
-            background-color: #1d1633;
-            padding: 30px 50px;
-            @media #{$breakpoint-xs} {
-                padding: 30px;
-                height: 185px;
-            }
-            .songs-name {
-                @media #{$breakpoint-xs} {
-                    @include flex(0 0 100%);
-                    max-width: 100%;
-                    width: 100%;
-                    margin-bottom: 30px;
-                }
-                p {
-                    font-weight: 900;
-                    color: rgba(255, 255, 255, 0.5);
-                    font-size: 12px;
-                    text-transform: uppercase;
-                    margin-bottom: 0;
-                }
-                h6 {
-                    margin-bottom: 0;
-                    color: $white-color;
-                    font-weight: 600;
-                    @media #{$breakpoint-md} {
-                        font-size: 14px;
-                    }
-                }
-            }
-            .audioplayer {
-                margin: 0;
-                padding: 0;
-                width: auto;
-                height: auto;
-                border: none;
-                border-radius: 0;
-                background: transparent;
-            }
-            .audioplayer-volume,
-            .audioplayer-bar {
-                display: none;
-            }
-            .audioplayer-playpause {
-                background-color: $white-color;
-            }
-            .audioplayer-time-duration {
-                margin-right: 0;
-            }
-            .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
-                border-top: 10px solid transparent;
-                border-right: none;
-                border-bottom: 10px solid transparent;
-                border-left: 18px solid #000;
-            }
-            .audioplayer-time {
-                width: 60px;
-                font-size: 16px;
-                color: $white-color;
-            }
-            .audioplayer-playpause {
-                margin-right: 70px;
-                @media #{$breakpoint-lg} {
-                    margin-right: 30px;
-                }
-                @media #{$breakpoint-md} {
-                    margin-right: 15px;
-                }
-                @media #{$breakpoint-xs} {
-                    margin-right: 40px;
-                }
-            }
-            .audioplayer-time-current {
-                position: relative;
-                z-index: 1;
-                &::after {
-                    content: '/';
-                    position: absolute;
-                    color: $white-color;
-                    font-size: 22px;
-                    top: -2px;
-                    right: -7px;
-                    z-index: 1;
-                }
-            }
-        }
-    }
-}
-
-/* :: 13.0 Music Artists Area CSS */
-
-.musica-music-artists-area {
-    position: relative;
-    z-index: 1;
-    background-color: $bg-default;
-    .music-search {
-        position: relative;
-        z-index: 1;
-        @include flex(0 0 calc(50% - 5px));
-        max-width: calc(50% - 5px);
-        width: calc(50% - 5px);
-        margin-right: 5px;
-        height: 430px;
-        @media #{$breakpoint-xs} {
-            @include flex(0 0 100%);
-            max-width: 100%;
-            width: 100%;
-            margin-right: 0;
-            margin-bottom: 10px;
-            height: 350px;
-        }
-        .music-search-content {
-            position: absolute;
-            text-align: center;
-            top: 50%;
-            left: 50%;
-            @include transform(translate(-50%, -50%));
-            z-index: 10;
-            h2 {
-                color: $white-color;
-                font-size: 60px;
-                font-weight: 900;
-                @media #{$breakpoint-lg} {
-                    font-size: 48px;
-                }
-                @media #{$breakpoint-md} {
-                    font-size: 42px;
-                }
-                @media #{$breakpoint-xs} {
-                    font-size: 30px;
-                }
-            }
-            h4 {
-                font-weight: 600;
-                color: $white-color;
-                margin-bottom: 0;
-                @media #{$breakpoint-md} {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
-    .artists-search {
-        position: relative;
-        z-index: 1;
-        @include flex(0 0 calc(50% - 5px));
-        max-width: calc(50% - 5px);
-        width: calc(50% - 5px);
-        margin-left: 5px;
-        height: 430px;
-        @media #{$breakpoint-xs} {
-            @include flex(0 0 100%);
-            max-width: 100%;
-            width: 100%;
-            margin-left: 0;
-            height: 350px;
-        }
-        .music-search-content {
-            position: absolute;
-            text-align: center;
-            top: 50%;
-            left: 50%;
-            @include transform(translate(-50%, -50%));
-            z-index: 10;
-            h2 {
-                color: $white-color;
-                font-size: 60px;
-                font-weight: 900;
-                @media #{$breakpoint-lg} {
-                    font-size: 48px;
-                }
-                @media #{$breakpoint-md} {
-                    font-size: 42px;
-                }
-                @media #{$breakpoint-xs} {
-                    font-size: 30px;
-                }
-            }
-            h4 {
-                font-weight: 600;
-                color: $white-color;
-                margin-bottom: 0;
-                @media #{$breakpoint-md} {
-                    font-size: 18px;
-                }
-            }
         }
     }
 }
