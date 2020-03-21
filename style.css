@@ -312,11 +312,11 @@ img {
   .musica-btn.btn-2 {
     background: #262626; }
     .musica-btn.btn-2:hover, .musica-btn.btn-2:focus {
-      background: #bd177a;
+      background: #aa00ff
       box-shadow: none;
       color: #ffffff; }
   .musica-btn.btn-3 {
-    color: #bd177a;
+    color: #aa00ff
     line-height: 42px;
     padding: 0 15px;
     width: 133px;
@@ -388,7 +388,7 @@ img {
             font-size: 14px;
             padding: 0 10px; } }
         .header-area .musica-main-menu .classy-navbar .classynav ul li a:hover, .header-area .musica-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #bd177a; }
+          color: #aa00ff }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .musica-main-menu .classy-navbar .classynav ul li a {
             background-color: black; } }
@@ -430,6 +430,10 @@ img {
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .musica-main-menu .top-social-info a {
             padding: 0 5px; } }
+    .header-area .musica-main-menu .top-social-info a:hover{
+      color: #aa00ff;
+      opacity: 0.95;
+    }
   .header-area .is-sticky .musica-main-menu {
     position: fixed;
     width: 100%;
@@ -658,7 +662,7 @@ img {
       font-size: 48px;
       line-height: 1;
       text-align: center;
-      color: #bd177a; }
+      color: #aa00ff }
       .single-timeline-area .timeline-date h2 span {
         display: block;
         font-size: 16px;
@@ -860,14 +864,14 @@ img {
         font-weight: 700;
         text-decoration-color: #6a6a6a; }
         .single-featugrey-shows .featugrey-shows-content .shows-text .buy-tickets-btn:hover, .single-featugrey-shows .featugrey-shows-content .shows-text .buy-tickets-btn:focus {
-          color: #bd177a; }
+          color: #aa00ff }
   .single-featugrey-shows:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
   .single-featugrey-shows:hover .featugrey-shows-content {
     bottom: 80px; }
     .single-featugrey-shows:hover .featugrey-shows-content .shows-text h4 {
-      color: #bd177a; }
+      color: #aa00ff }
 
 .featugrey-shows-slides {
   position: relative;
@@ -1018,13 +1022,13 @@ img {
       border-left: 18px solid #000; }
     .single-music-player .music-play-icon .audioplayer .audioplayer-playing .audioplayer-playpause a::before,
     .single-music-player .music-play-icon .audioplayer .audioplayer-playing .audioplayer-playpause a::after {
-      background-color: #bd177a; }
+      background-color: #aa00ff }
     .single-music-player .music-play-icon .audioplayer .audioplayer-bar,
     .single-music-player .music-play-icon .audioplayer .audioplayer-time,
     .single-music-player .music-play-icon .audioplayer .audioplayer-volume {
       display: none !important; }
   .single-music-player:hover .music-info, .single-music-player:focus .music-info {
-    background-color: #bd177a; }
+    background-color: #aa00ff }
   .single-music-player:hover img, .single-music-player:focus img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2); }
@@ -1075,7 +1079,7 @@ img {
       border-top: 7px solid transparent;
       border-right: none;
       border-bottom: 7px solid transparent;
-      border-left: 12px solid #bd177a; }
+      border-left: 12px solid #aa00ff }
     .featugrey-album-content .album-all-songs .audioplayer-playpause {
       width: auto;
       height: auto; }
@@ -1314,7 +1318,7 @@ img {
       font-size: 12px;
       font-weight: 500; }
       .footer-area .footer-widget-area .copywrite-text a:hover, .footer-area .footer-widget-area .copywrite-text a:focus {
-        color: #bd177a; }
+        color: #aa00ff }
   .footer-area .footer-widget-area .widget-title h4 {
     font-size: 24px;
     font-weight: 900;
@@ -1331,7 +1335,7 @@ img {
       margin-bottom: 15px;
       font-weight: 600; }
       .footer-area .footer-widget-area .footer-nav li a:hover, .footer-area .footer-widget-area .footer-nav li a:focus {
-        color: #bd177a; }
+        color: #aa00ff }
     .footer-area .footer-widget-area .footer-nav li:last-child a {
       margin-bottom: 0; }
   .footer-area .footer-widget-area .subscribe-form {
@@ -1513,7 +1517,7 @@ img {
   font-weight: 700;
   text-decoration-color: #6a6a6a; }
   .single-blog-post .read-more-btn:hover, .single-blog-post .read-more-btn:focus {
-    color: #bd177a; }
+    color: #aa00ff }
 
 .musica-pagination-area .pagination .page-item .page-link {
   background-color: transparent;
@@ -1525,7 +1529,7 @@ img {
   font-size: 16px;
   font-weight: 700; }
   .musica-pagination-area .pagination .page-item .page-link:hover, .musica-pagination-area .pagination .page-item .page-link:focus {
-    color: #bd177a; }
+    color: #aa00ff }
 .musica-pagination-area .pagination .page-item:first-child .page-link {
   margin-left: 0;
   border-top-left-radius: 0;
@@ -1585,7 +1589,7 @@ img {
       display: inline-block;
       margin-right: 50px; }
       .contact-content .contact-social-info a:hover, .contact-content .contact-social-info a:focus {
-        color: #bd177a; }
+        color: #aa00ff }
       @media only screen and (max-width: 767px) {
         .contact-content .contact-social-info a {
           margin-right: 20px; } }
@@ -1619,7 +1623,7 @@ img {
     transition-duration: 500ms; }
     .contact-content .contact-form-area .form-control:focus {
       box-shadow: none;
-      border-bottom: 2px solid #bd177a; }
+      border-bottom: 2px solid #aa00ff }
   .contact-content .contact-form-area textarea.form-control {
     height: 180px; }
 
@@ -1754,7 +1758,7 @@ img {
     font-size: 36px;
     font-weight: 700;
     margin-right: 15px;
-    color: #bd177a; }
+    color: #aa00ff }
   .musica-tabs-content .tab-content h6 {
     font-size: 18px; }
 
