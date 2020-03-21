@@ -27,6 +27,7 @@
 body {
     font-family: $fonts;
     font-size: 14px;
+    background-color:black
 }
 
 h1,
@@ -1442,6 +1443,7 @@ img {
         z-index: 1;
     }
     .post-title {
+        color:white;
         font-size: 30px;
         display: block;
         margin-bottom: 0;

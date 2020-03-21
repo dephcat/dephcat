@@ -16,7 +16,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  background-color: black}
 
 h1,
 h2,
@@ -1474,6 +1475,7 @@ img {
   position: relative;
   z-index: 1; }
 .single-blog-post .post-title {
+  color:white;
   font-size: 30px;
   display: block;
   margin-bottom: 0;
