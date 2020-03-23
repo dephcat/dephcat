@@ -128,7 +128,7 @@ img {
 /* :: 3.3.0 Section Padding */
 .section-padding-50 {
   padding-top: 50px;
-  padding-bottom: 100px; }
+  padding-bottom: 50px; }
 
 .section-padding-100 {
   padding-top: 100px;
@@ -1885,6 +1885,11 @@ img {
   }
 
 .color-white{
+  font-size: 16px;
+  color:white;
+}
+
+.white-body{
   font-size: 16px;
   color:white;
 }
