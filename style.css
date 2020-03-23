@@ -264,7 +264,7 @@ img {
   z-index: 1;
   width: 100%;
   height: 5px;
-  background: black;
+  background: #282828;
 }
 
 /* :: 3.7.0 ScrollUp */
@@ -1490,7 +1490,7 @@ img {
     left: 50%;
     margin-left: -196px;
     z-index: 100;
-    background: black;
+    background: #282828;
     text-align: center; }
     @media only screen and (max-width: 767px) {
       .breadcumb-area .bradcumbContentEpl {
@@ -1517,7 +1517,7 @@ img {
     left: 50%;
     margin-left: -196px;
     z-index: 100;
-    background: black;
+    background: #282828;
     text-align: center; }
     @media only screen and (max-width: 767px) {
       .breadcumb-areaEpk .bradcumbContentEpk {
@@ -1887,6 +1887,8 @@ img {
 .color-white{
   font-size: 16px;
   color:white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .white-body{
@@ -1901,6 +1903,12 @@ img {
   font-size: 16px;
   color:#aa00ff;
   opacity: 0.95;
+}
+
+.center-contacts{
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
 }
 /* ====== The End ====== */
 
