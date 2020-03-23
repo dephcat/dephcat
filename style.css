@@ -259,6 +259,14 @@ img {
   background: -webkit-repeating-linear-gradient(to right, blue 0%, purple 50%, red 100%);
   background: repeating-linear-gradient(to right, blue 0%, purple 50%, red 100%); }
 
+.bg-gradientsEpk {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 5px;
+  background: black;
+}
+
 /* :: 3.7.0 ScrollUp */
 #scrollUp {
   background: black;
@@ -1430,6 +1438,105 @@ img {
         .breadcumb-area .bradcumbContent h2 {
           font-size: 26px; } }
 
+  .bradcumbContent {
+    position: absolute;
+    width: 392px;
+    height: 78px;
+    bottom: -39px;
+    left: 50%;
+    margin-left: -196px;
+    z-index: 100;
+    background: grey;
+    background: -webkit-repeating-linear-gradient(to right, blue 0%, purple 50%, red 100%);
+    background: repeating-linear-gradient(to right, blue 0%, purple 50%, red 100%);
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .breadcumb-area .bradcumbContent {
+        width: 280px;
+        margin-left: -140px; } }
+    .breadcumb-area .bradcumbContent h2 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 0;
+      line-height: 78px;
+      font-weight: 900; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .breadcumb-area .bradcumbContent h2 {
+          font-size: 30px; } }
+      @media only screen and (max-width: 767px) {
+        .breadcumb-area .bradcumbContent h2 {
+          font-size: 26px; } }
+
+
+.breadcumb-areaEpk {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 550px;}
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .breadcumb-area {
+      height: 350px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcumb-area {
+      height: 350px; } }
+  @media only screen and (max-width: 767px) {
+    .breadcumb-area {
+      height: 250px; } }
+  .breadcumb-areaEpk .bradcumbContentEpk {
+    position: absolute;
+    width: 392px;
+    height: 78px;
+    bottom: -39px;
+    left: 50%;
+    margin-left: -196px;
+    z-index: 100;
+    background: black;
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .breadcumb-area .bradcumbContentEpl {
+        width: 280px;
+        margin-left: -140px; } }
+    .breadcumb-area .bradcumbContentEpk h2 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 0;
+      line-height: 78px;
+      font-weight: 900; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .breadcumb-area .bradcumbContentEpk h2 {
+          font-size: 30px; } }
+      @media only screen and (max-width: 767px) {
+        .breadcumb-area .bradcumbContentEpk h2 {
+          font-size: 26px; } }
+
+  .bradcumbContentEpk {
+    position: absolute;
+    width: 392px;
+    height: 78px;
+    bottom: -39px;
+    left: 50%;
+    margin-left: -196px;
+    z-index: 100;
+    background: black;
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .breadcumb-areaEpk .bradcumbContentEpk {
+        width: 280px;
+        margin-left: -140px; } }
+    .breadcumb-areaEpk .bradcumbContentEpk h2 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 0;
+      line-height: 78px;
+      font-weight: 900; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .breadcumb-areaEpk .bradcumbContentEpk h2 {
+          font-size: 30px; } }
+      @media only screen and (max-width: 767px) {
+        .breadcumb-areaEpk .bradcumbContentEpk h2 {
+          font-size: 26px; } }
+
+
 /* :: 17.0 CTA Area CSS */
 .cta-content {
   position: relative;
@@ -1762,6 +1869,31 @@ img {
   .musica-tabs-content .tab-content h6 {
     font-size: 18px; }
 
+  .bg-grey-epk{
+    width:100%;
+    /* background-color: #262626; */
+  }
+
+  .bg-grey2-epk{
+    width:100%;
+    /* background-color: #404040; */
+  }
+
+  .bg-grey3-epk{
+    width:100%;
+    /* background-color: #595959; */
+  }
+
+.color-white{
+  font-size: 16px;
+  color:white;
+}
+
+.color-white:hover{
+  font-size: 16px;
+  color:#aa00ff;
+  opacity: 0.95;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
