@@ -1899,12 +1899,6 @@ img {
   color:white;
 }
 
-.color-white:hover{
-  font-size: 16px;
-  color:#aa00ff;
-  opacity: 0.95;
-}
-
 .fa-make-circle {
   color:white;
   padding: 8px;
@@ -1929,6 +1923,21 @@ img {
 
 #fa-env{
   background: #430297;
+}
+
+.pink-hover:hover{
+  font-size: 16px;
+  color: #f40083;
+}
+
+.purple-hover:hover{
+  font-size: 16px;
+  color: #430297;
+}
+
+.blue-hover:hover{
+  font-size: 16px;
+  color: #3B5998;
 }
 
 .center-contacts{
