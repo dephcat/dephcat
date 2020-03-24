@@ -1905,10 +1905,36 @@ img {
   opacity: 0.95;
 }
 
+.fa-make-circle {
+  color:white;
+  padding: 8px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-make-circle:hover {
+    opacity: 0.7;
+}
+
+#fa-fb{
+  background: #3B5998;
+}
+
+#fa-insta{
+  background: #f40083;
+}
+
+#fa-env{
+  background: #430297;
+}
+
 .center-contacts{
   margin-left: auto;
   margin-right: auto;
-  width: 8em;
+  width: 10em;
 }
 /* ====== The End ====== */
 
